@@ -10,12 +10,12 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Location</LinkTitle>
-          <LinkItem href='https://www.google.com/maps/place/London/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862'>London, UK, E17</LinkItem>
+          <LinkItem href='https://www.google.com/maps/place/London/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862' target='_blank'>London, UK, E17</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:eugenjamb@gmail.com">
-            contact@jsmastery.com
+          <LinkItem href="mailto:eugenjamb@gmail.com" target='_blank'>
+            eugenjamb@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -24,10 +24,10 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/eugenjamb?tab=repositories">
+          <SocialIcons href="https://github.com/eugenjamb?tab=repositories" target='_blank'>
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/eugen-jambrovschii-08a227177">
+          <SocialIcons href="https://www.linkedin.com/in/eugen-jambrovschii-08a227177" target='_blank'>
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>

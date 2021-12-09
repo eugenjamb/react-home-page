@@ -8,6 +8,10 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  position: sticky;
+  background-color: #0F1624;
+  top: 0;
+  z-index: 90;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
