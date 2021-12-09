@@ -9,12 +9,12 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkTitle>Location</LinkTitle>
+          <LinkItem href='https://www.google.com/maps/place/London/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862'>London, UK, E17</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
+          <LinkItem href="mailto:eugenjamb@gmail.com">
             contact@jsmastery.com
           </LinkItem>
         </LinkColumn>
