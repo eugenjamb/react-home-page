@@ -3,7 +3,7 @@ export const projects = [
     title: 'Clothing Store',
     description: "Using React, Node.js, Firebase I made an app that allows the user to authorise and go over an item selection and payment process.",
       image: `/images/1.png`,
-      tags: ['React', 'Node', 'Firebase', 'Redux', 'Stripe'],
+      tags: ['React', 'Node', 'Firebase', 'Redux', 'Stripe', 'Redux-saga', 'reselect', 'redux-persist'],
     source: 'https://github.com/eugenjamb/react-ecommerce',
     visit: 'https://ej-react-ecommerce-shop.herokuapp.com/',
     id: 0,
