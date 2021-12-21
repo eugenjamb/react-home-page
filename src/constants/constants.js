@@ -8,6 +8,15 @@ export const projects = [
     visit: 'https://ej-react-ecommerce-shop.herokuapp.com/',
     id: 0,
   },
+  {
+    title: 'Device Store',
+    description: "A fullstack web application written on django and react, as well as using AWS for hosting database. This is an online store that allows any user to register a free account and order any instock item.",
+      image: `/images/1.png`,
+      tags: ['React', 'DJnago', 'Redux', 'PostreSQL', 'AWS'],
+    source: 'https://github.com/eugenjamb/device-store',
+    visit: 'https://device-store.herokuapp.com/#/',
+    id: 1,
+  },
 ];
 
 export const TimeLineData = [
