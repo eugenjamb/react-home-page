@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Clothing Store',
     description: "Using React, Node.js, Firebase I made an app that allows the user to authorise and go over an item selection and payment process.",
-      image: `/images/1.png`,
+      image: `/images/clothing-store.png`,
       tags: ['React', 'Node', 'Firebase', 'Redux', 'Stripe', 'Redux-saga', 'reselect', 'redux-persist'],
     source: 'https://github.com/eugenjamb/react-ecommerce',
     visit: 'https://ej-react-ecommerce-shop.herokuapp.com/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Device Store',
     description: "A fullstack web application written on django and react, as well as using AWS for hosting database. This is an online store that allows any user to register a free account and order any instock item.",
-      image: `/images/1.png`,
+      image: `/images/device-store-project.png`,
       tags: ['React', 'DJnago', 'Redux', 'PostreSQL', 'AWS'],
     source: 'https://github.com/eugenjamb/device-store',
     visit: 'https://device-store.herokuapp.com/#/',
